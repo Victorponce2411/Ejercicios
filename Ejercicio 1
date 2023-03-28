@@ -1,0 +1,25 @@
+public class Main {
+        public static void main(String[] args) {
+        suma(1,2,3);
+        
+
+        Coche miCoche = new Coche(); //Funcion que crea el objeto
+        miCoche.IncrementarPuertas(); //Llamado a la funcion que incrementa puertas
+        miCoche.IncrementarPuertas();
+        System.out.println("La cantidad de puertas que tiene el coche ahora es: "+miCoche.puertas); // Muestra en pantalla la cantidad de puertas
+    }
+
+    public static int suma(int a, int b, int c) {
+        int resultado;
+        resultado = a + b + c;
+        System.out.println("El resultado de la suma es: "+resultado);
+        return resultado;
+    }
+}
+
+class Coche {
+    public int puertas = 1;
+    public void IncrementarPuertas() {
+        this.puertas++;
+    }
+}
