@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <!--Utiliza la etiqueta de título para poner en el título "Ejercicio de Introducción a HTML en OpenBootcamp"-->
+    <head>
+        <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+    </head>
+    <!--Dentro de la etiqueta body pon un comentario de dos líneas
+
+            - Este es mi primer comentario de dos líneas
+            - Aprendiendo a documentar mi código con OpenBootcamp-->
+    <body>
+        <div>
+        <p>Este es mi primer comentario de dos líneas</p>
+        </div>
+        <p>Aprendiendo a documentar mi código con OpenBootcamp</p>
+        
+        <!--Crea una lista desordenada de tus tres vídeos de Youtube favoritos, siguiendo las siguientes pautas:
+
+            - Cada elemento de la lista tiene que ser un enlace
+            - El texto del enlace debe ser el título del vídeo-->
+
+            <ul>
+            <li>
+                <a href="https://www.youtube.com/watch?v=1I6IiRVYHEo">Top 5 mejores Bootcamps para aprender a programar</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=sRKgA-1Xq88">Los 7 mejores libros (para aprender a programar)</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=MvCbPrrQGJY">Mi PLAN DE ESTUDIOS 📚 para ser programador</a>
+            </li>
+        </ul>
+    </body>
+</html>
