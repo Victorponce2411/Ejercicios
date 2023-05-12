@@ -1,0 +1,20 @@
+.boton:hover{ 
+    color: white;
+    background-color:green;
+}
+
+.boton:active {
+    background-color: burlywood;
+}
+
+button.boton{
+    background-color: white;
+    color: white;
+}
+
+button.boton::after {
+    Color: black;
+    content: "Hecho";
+    font-size: medium;
+}
+
